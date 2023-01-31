@@ -6,7 +6,7 @@ import arrow from '../images/arrow.svg'
 import playIcon from '../images/play.svg'
 import musicIcon from '../images/search.svg'
 import pauseIcon from '../images/pause.svg'
-import Song from '../images/hymn11.svg'
+// import Song from '../images/hymn11.svg'
 import useSound from "use-sound";
 import qala from "../music/011.mp3"; 
 
@@ -68,7 +68,7 @@ export default function Eleven() {
 
       <div className="song-body">
         <div className="song-body-container">
-          <img src={Song} alt="" />
+          {/* <img src={Song} alt="" /> */}
         </div>
       </div>
 

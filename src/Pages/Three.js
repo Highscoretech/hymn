@@ -6,7 +6,15 @@ import arrow from '../images/arrow.svg'
 import playIcon from '../images/play.svg'
 import musicIcon from '../images/search.svg'
 import pauseIcon from '../images/pause.svg'
-import Song from '../images/hymn3.svg'
+import Song1 from '../images/third1.svg'
+import Song2 from '../images/third2.svg'
+import Song3 from '../images/third3.svg'
+import Song4 from '../images/third4.svg'
+import Song5 from '../images/third5.svg'
+import Song6 from '../images/third6.svg'
+import Song7 from '../images/third7.svg'
+import Song8 from '../images/third8.svg'
+import Song9 from '../images/third9.svg'
 
 import useSound from "use-sound"; // for handling the sound
 import qala from "../music/003.mp3"; // importing the music
@@ -74,7 +82,15 @@ export default function Three() {
 
       <div className="song-body">
         <div className="song-body-container">
-          <img src={Song} alt="" />
+          <img src={Song1} alt="" />
+          <img src={Song2} alt="" />
+          <img src={Song3} alt="" />
+          <img src={Song4} alt="" />
+          <img src={Song5} alt="" />
+          <img src={Song6} alt="" />
+          <img src={Song7} alt="" />
+          <img src={Song8} alt="" />
+          <img src={Song9} alt="" />
         </div>
       </div>
 

@@ -6,7 +6,19 @@ import arrow from '../images/arrow.svg'
 import playIcon from '../images/play.svg'
 import musicIcon from '../images/search.svg'
 import pauseIcon from '../images/pause.svg'
-import Song from '../images/hymn4.svg'
+import Song1 from '../images/four1.svg'
+import Song2 from '../images/four2.svg'
+import Song3 from '../images/four3.svg'
+import Song4 from '../images/four4.svg'
+import Song5 from '../images/four5.svg'
+import Song6 from '../images/four6.svg'
+import Song7 from '../images/four7.svg'
+import Song8 from '../images/four8.svg'
+import Song9 from '../images/four9.svg'
+import Song10 from '../images/four10.svg'
+import Song11 from '../images/four11.svg'
+import Song12 from '../images/four12.svg'
+
 
 import useSound from "use-sound"; // for handling the sound
 import qala from "../music/004.mp3"; // importing the music
@@ -74,7 +86,18 @@ export default function Four() {
 
       <div className="song-body">
         <div className="song-body-container">
-          <img src={Song} alt="" />
+          <img src={Song1} alt="" />
+          <img src={Song2} alt="" />
+          <img src={Song3} alt="" />
+          <img src={Song4} alt="" />
+          <img src={Song5} alt="" />
+          <img src={Song6} alt="" />
+          <img src={Song7} alt="" />
+          <img src={Song8} alt="" />
+          <img src={Song9} alt="" />
+          <img src={Song10} alt="" />
+          <img src={Song11} alt="" />
+          <img src={Song12} alt="" />
         </div>
       </div>
 
