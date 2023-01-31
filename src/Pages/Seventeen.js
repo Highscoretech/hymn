@@ -6,13 +6,13 @@ import arrow from '../images/arrow.svg'
 import playIcon from '../images/play.svg'
 import musicIcon from '../images/search.svg'
 import pauseIcon from '../images/pause.svg'
-import Song from '../images/hymn7.svg'
+import Song from '../images/hymn17.svg'
 
 import useSound from "use-sound"; // for handling the sound
-import qala from "../music/007.mp3"; // importing the music
+import qala from "../music/017.mp3"; // importing the music
 
 
-export default function Seven() {
+export default function Seventeen() {
   
   const [isPlaying, setIsPlaying] = useState(false);
   const [play, { pause, duration, sound }] = useSound(qala);
@@ -60,7 +60,7 @@ export default function Seven() {
             </div>
             <div className="music-center">
                 <img src={musicIcon} alt="" />
-                <h3>Hymn 7</h3>
+                <h3>Hymn 17</h3>
             </div>
             {!isPlaying && <div className="search-content" onClick={playingButton}>
                 <img src={playIcon} alt="" />
@@ -83,7 +83,7 @@ export default function Seven() {
       <div className="buttom-playing">
         <div className="buttom-playing-container">
           <div className="song-name">
-              <h3>A mighty fortress</h3>
+              <h3>A beautiful prayer</h3>
           </div>
           <div className="song-progress">
               <span>{currTime.min}:{currTime.sec}</span>
