@@ -7,9 +7,8 @@ import playIcon from '../images/play.svg'
 import musicIcon from '../images/search.svg'
 import pauseIcon from '../images/pause.svg'
 import Song from '../images/hymn11.svg'
-
-import useSound from "use-sound"; // for handling the sound
-import qala from "../music/011.mp3"; // importing the music
+import useSound from "use-sound";
+import qala from "../music/011.mp3"; 
 
 
 export default function Eleven() {
@@ -93,7 +92,6 @@ export default function Eleven() {
                 sound.seek([e.target.value]);
               }}
             />
-             
               { isPlaying &&  <img onClick={playingButton} src={pauseIcon} alt="" /> }
               { !isPlaying &&  <img onClick={playingButton} src={playIcon} alt="" /> }
           </div>
