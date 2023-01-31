@@ -5,8 +5,8 @@ import One from "./Pages/One";
 import Two from "./Pages/Two";
 import Three from "./Pages/Three";
 import Four from "./Pages/Four";
-import bible from "./images/preloader.svg"
-import proclaim from "./images/prockain.svg"
+// import bible from "./images/preloader.svg"
+// import proclaim from "./images/prockain.svg"
 import { useState } from "react";
 import Five from "./Pages/five";
 import Six from "./Pages/six";
@@ -27,31 +27,31 @@ import Twenty from "./Pages/Twenty";
 
 
 function App() {
-  const [showbible, setShowbible] = useState(true)
-  const [showproclaim, setShowproclaim] = useState(false)
+//   const [showbible, setShowbible] = useState(true)
+//   const [showproclaim, setShowproclaim] = useState(false)
 
 
-setTimeout(()=>{
-  setShowproclaim(false)
-  setShowbible(false)
+// setTimeout(()=>{
+//   setShowproclaim(false)
+//   setShowbible(false)
 
-  setTimeout(()=>{
-    setShowbible(false)
-    setShowproclaim(true)
-  },2000)
-},2000)
+//   setTimeout(()=>{
+//     setShowbible(false)
+//     setShowproclaim(true)
+//   },2000)
+// },2000)
 
 
   return (
     <div className="App">
 
-      { showbible &&  <div className="first-img-load">
+      {/* { showbible &&  <div className="first-img-load">
           <img src={bible} alt="ike" />
       </div> }
       
       { showproclaim &&  <div className="first-img-load">
             <img src={proclaim} alt="ike" />
-      </div> }
+      </div> } */}
 
       <BrowserRouter>
         <Routes>
