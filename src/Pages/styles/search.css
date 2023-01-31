@@ -1,0 +1,147 @@
+.search{
+    padding: 0;
+    margin: 0;
+}
+
+.search-header{
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.094);
+    background-color: white;
+}
+.search-header-container{
+    display: flex;
+    position: relative;
+}
+.search-header-container .search-content img{
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.168);
+    padding: 8px;
+    width: 15px;
+    border-radius: 7px;
+}
+.search-header-container .music-content{
+    display: flex;
+    position: relative;
+    gap: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 13px 20px;
+}
+
+.search-header-container .search-content{
+   position: absolute;
+   top: 10px;
+   right: 20px;
+}
+
+.song-list{
+    padding-top: 40px;
+
+}
+.song-list-content{
+    margin:10px 5px; 
+}
+.song-list-content a{
+    font-size: 11px;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: none;
+    color:black;
+}
+.song-list-container{
+    padding: 10px;
+    margin: 5px;
+}
+.song-list .song-list-container::-webkit-scrollbar{
+    display: none;
+}
+.music-back {
+    margin: 10px 15px;
+}
+.music-back img{
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.168);
+    padding: 8px;
+    width: 10px;
+    border-radius: 7px;
+}
+.music-center {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    position: absolute;
+    right: 45%;
+    gap: 10px;
+    top: 20px;
+    font-size: 10px;
+}
+.music-center img {
+   width: 8px;
+}
+
+.buttom-playing{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 57px;
+    background: white;
+    color: black;
+    border-top: 1px solid rgba(0, 0, 0, 0.138);
+    width: 100%;
+
+}
+/* .song-progress input[type="range"]{
+   background-color: rgba(223, 22, 22, 1);
+} */
+.buttom-playing-container .song-name {
+    text-align: center;
+    font-size: 10px;
+    font-style: italic;
+}
+.song-progress{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    font-size: 10px;
+    font-weight: 600;
+    padding: 5px 10px;
+
+}
+.song-progress img{
+    width: 10px;
+}
+
+input {
+    background: #27ae60;
+    width: 80%;
+    height: 5px;
+}
+  
+.song-body{
+    width: 100%;
+    overflow-y: scroll;
+    padding: 0;
+    margin: 0;
+}
+.song-body-container{
+    padding: 15px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.song-body-container img{
+    width: 97%;
+}
+
+.first-img-load{
+    width: 100%;
+    height: 100%;
+    background: white;
+    z-index: 100;
+    position: fixed;
+}
+
+.first-img-load img{
+    margin:120px 70px;
+    width: 250px;
+}
