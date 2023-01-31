@@ -7,7 +7,7 @@ import Three from "./Pages/Three";
 import Four from "./Pages/Four";
 // import bible from "./images/preloader.svg"
 // import proclaim from "./images/prockain.svg"
-import { useState } from "react";
+// import { useState } from "react";
 import Five from "./Pages/five";
 import Six from "./Pages/six";
 import Seven from "./Pages/Seven";
